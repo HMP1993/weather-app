@@ -12,9 +12,10 @@ function App() {
       <TopButtons />
       <Input />
 
-      <TimeAndLocation/>
-      <TempratureAndDetails/>
-      <Forecast/>
+      <TimeAndLocation />
+      <TempratureAndDetails />
+      <Forecast title="hourely forecast" />
+      <Forecast title="daily forecast" />
     </div>
   );
 }
