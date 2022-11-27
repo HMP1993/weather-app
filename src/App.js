@@ -1,4 +1,4 @@
-import UilReact from "@iconscout/react-unicons/icons/uil-react";
+
 import "./App.css";
 import Forecast from "./components/Forecast";
 import Input from "./components/Input";
@@ -9,7 +9,7 @@ import getFormattedWeatherData from "./services/WeatherService";
 
 function App() {
   const fetchWeather = async () => {
-    const data = await getFormattedWeatherData({ q: "Tokyo" });
+    const data = await getFormattedWeatherData({ q: "London" });
     console.log(data);
   };
 
